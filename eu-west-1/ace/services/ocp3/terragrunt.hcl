@@ -85,7 +85,7 @@ inputs = {
 
   tags = {
     "kubernetes.io/cluster/ace-ocp3"    = "owned",
-    "Environment"                       = "ACE",
+    "Environment"                       = "ACE2",
     "Customer"                          = "TCC",
     "Owner"                             = "Infrastructure Services",
     "Project"                           = "EPIC AWS Cloud Infrastructure Readiness",
