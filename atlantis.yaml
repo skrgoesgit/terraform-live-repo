@@ -1,18 +1,6 @@
 version: 3
 projects:
-- dir: eu-west-1/dce/vpc/terragrunt.hcl
-  workflow: terragrunt
-- dir: eu-west-1/dce/services/ocp3/terragrunt.hcl
-  workflow: terragrunt
-- dir: eu-west-1/dce/services/sc-appsrv/terragrunt.hcl
-  workflow: terragrunt
-- dir: eu-west-1/ace/vpc/terragrunt.hcl
-  workflow: terragrunt
-- dir: eu-west-1/ace/rds/ora/sc/terragrunt.hcl
-  workflow: terragrunt
-- dir: eu-west-1/ace/rds/mssql/xb/terragrunt.hcl
-  workflow: terragrunt
-- dir: eu-west-1/ace/services/ocp3/terragrunt.hcl
+- dir: eu-west-1/ace/vpc
   workflow: terragrunt
 workflows:
   terragrunt:
