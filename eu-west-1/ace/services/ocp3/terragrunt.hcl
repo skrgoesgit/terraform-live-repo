@@ -17,7 +17,7 @@ inputs = {
   internal_subnet_ids                   = dependency.vpc.outputs.internal_subnet_ids
 
   r53_ocp_private_zone_name             = "ocp3.ace.tcc.aws.internal"
-  r53_ocp_private_zone_comment          = "ACE OCP3 / changed by SKR via TF"
+  r53_ocp_private_zone_comment          = "ACE OCP3"
   r53_ocp_apps_private_zone_name        = "app.ocp3.ace.tcc.aws.internal"
   r53_ocp_apps_private_zone_comment     = "ACE OCP3 Applications"
 
@@ -91,5 +91,6 @@ inputs = {
     "Owner"                             = "Infrastructure Services",
     "Project"                           = "EPIC AWS Cloud Infrastructure Readiness",
     "Managed by"                        = "Terraform",
+    "SKR"                               = " ist der Beste"
   }
 }
