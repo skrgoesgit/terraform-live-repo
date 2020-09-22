@@ -91,6 +91,5 @@ inputs = {
     "Owner"                             = "Infrastructure Services",
     "Project"                           = "EPIC AWS Cloud Infrastructure Readiness",
     "Managed by"                        = "Terraform",
-    "SKR"                               = " ist der Beste"
   }
 }
