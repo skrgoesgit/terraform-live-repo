@@ -12,7 +12,7 @@ projects:
   workflow: terragrunt
 - dir: eu-west-1/ace/rds/mssql/xb/terragrunt.hcl
   workflow: terragrunt
-- dir: eu-west-1/ace/services/ocp3/terragrunt.hcl
+- dir: eu-west-1/ace/services/ocp3
   workflow: terragrunt
 workflows:
   terragrunt:
