@@ -2,6 +2,8 @@ version: 3
 projects:
 - dir: eu-west-1/ace/vpc
   workflow: terragrunt
+- dir: eu-west-1/ace/services/testinstance
+  workflow: terragrunt
 workflows:
   terragrunt:
     plan:
