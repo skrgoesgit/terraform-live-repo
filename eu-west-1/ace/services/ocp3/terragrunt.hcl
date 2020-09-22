@@ -1,5 +1,6 @@
 terraform {
-  source = "git::https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/terraform-aws-module-ocp3//ocp3?ref=v0.0.11"
+  #source = "git::https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/terraform-aws-module-ocp3//ocp3?ref=v0.0.11"
+  source = "git::https://github.com/skruegergoesgit/terraform-aws-module-ocp3//ocp3?ref=v0.0.11"
 }
 
 include {
