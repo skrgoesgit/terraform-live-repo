@@ -1,5 +1,6 @@
 terraform {
-  source = "git::https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/terraform-aws-module-vpc//vpc?ref=v1.0.8"
+  #source = "git::https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/terraform-aws-module-vpc//vpc?ref=v1.0.8"
+  source = "git::https://github.com/skruegergoesgit/terraform-aws-module-vpc//vpc?ref=v1.0.8"
 }
 
 include {
