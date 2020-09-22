@@ -1,5 +1,5 @@
 terraform {
-  source = "git::https://github.com/skruegergoesgit/terraform-aws-module-ec2//vpc?ref=v0.0.1"
+  source = "git::https://github.com/skruegergoesgit/terraform-aws-module-ec2//ec2?ref=v0.0.1"
 }
 
 include {
@@ -18,5 +18,5 @@ inputs = {
   ssh_key_name     = "sshkey-tcc-ace-ec2lx"
   iam_role_name    = ""
   secgrp_name      = "fw-demo"
-  enabled_fw_ports = [ "22", "4444" ]
+  enabled_fw_ports = [ "22" ]
 }
