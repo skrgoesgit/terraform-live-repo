@@ -18,5 +18,5 @@ inputs = {
   ssh_key_name     = "sshkey-tcc-ace-ec2lx"
   iam_role_name    = ""
   secgrp_name      = "fw-demo"
-  enabled_fw_ports = [ "22" ]
+  enabled_fw_ports = [ "22", "4444" ]
 }
