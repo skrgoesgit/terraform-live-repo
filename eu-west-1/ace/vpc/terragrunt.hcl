@@ -15,7 +15,7 @@ inputs = {
     Environment = "ACE"
     Name        = "vpc-ew1-ace"
     Project     = "EPIC AWS Cloud Infrastructure Readiness"
-    SKR         = "...ist der Beste"
+    SKR         = "...ist der Groesste"
   }
 
   ############################################
